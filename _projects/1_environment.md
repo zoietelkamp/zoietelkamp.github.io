@@ -1,81 +1,19 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: "The SOFIA Massive (SOMA) Star Formation Survey. V. Clustered Protostars"
+# description: "[One-sentence summary of this project.]"
+category: environment
 importance: 1
-category: work
-related_publications: true
+github: "[link to the sedcreator package on GitHub/PyPI]"
+paper: "[link to the published paper, e.g. journal page, DOI, or arXiv]"
+summary: >
+  This project investigates the initial conditions required for massive stars to form by examining protostars and their host environments on scales of ~0.1–1 parsec, as part of the SOFIA Massive (SOMA) Star Formation Survey. Synthesizing infrared SED-fitting results for over 70 protostars across diverse environments, we find no evidence that massive stars require their environment to meet a minimum mass surface density threshold — contradicting models built around the low-mass star formation process. This result was <a href="https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/">featured in AAS Nova's Selections from 2025</a>.
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project investigates the initial conditions required for massive stars to form by examining protostars and their host environments on scales of ~0.1–1 parsec. Using images from NASA's SOFIA, Spitzer, and Herschel telescopes, we perform IR spectral energy distribution (SED) fitting to derive key properties for 34 massive protostars in 7 regions of clustered star formation as part of the SOFIA Massive (SOMA) Star Formation Survey. Synthesizing results from the entire SOMA survey of over 70 protostars across different environments, we find massive stars forming under diverse conditions, with no evidence that they require their environment to meet a minimum mass surface density (Σcl) threshold. This contradicts models that predict that massive stars, unlike their low-mass counterparts, require a minimum Σcl to form.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This result was <a href="https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/">featured in AAS Nova's Selections from 2025</a>.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### The sedcreator package
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+This work includes the development and release of **sedcreator** version 2.0, an open-source Python package that automates the photometry and SED building/fitting process for large protostellar samples. [Add a couple of sentences on what sedcreator does under the hood, why you built it, and how others can use it — e.g. installation, documentation link, and whether it's designed to generalize beyond SOMA.]
