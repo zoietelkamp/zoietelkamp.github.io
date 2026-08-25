@@ -20,7 +20,7 @@ display_categories:
   }
 
   .dissertation-title {
-    font-size: clamp(1.5rem, 3.25vw, 2.25rem);
+    font-size: clamp(2.5rem, 3.25vw, 2.25rem);
     font-weight: 700;
     line-height: 1.3;
     text-align: left;
@@ -60,6 +60,21 @@ display_categories:
     margin-bottom: 0.5rem;
     font-size: 0.8rem;
     line-height: 1.3;
+  }
+
+  .project-figure-center {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  .project-figure-center img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-figure-center .caption {
+    max-width: 850px;
+    margin: 0.5rem auto 0;
   }
 
   .dissertation-intro {
