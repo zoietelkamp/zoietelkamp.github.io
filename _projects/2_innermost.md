@@ -6,7 +6,7 @@ category: innermost
 importance: 1
 summary: >
   <div class="project-figure-right" style="width: 260px; text-align: center;">
-    <img src="/al-folio/assets/img/G11.92-0.61_MM11_crop.png" alt="Example ALMA Band 6 continuum image from the sample (zoomed-in to show a source in the massive protocluster G11.92-0.61)." style="width: 100%;" class="img-fluid rounded z-depth-1">
+    <img src="/al-folio/assets/img/G11.92-0.61_MM11_crop.png" alt="Example ALMA Band 6 continuum image from the sample (zoomed-in to show a disk in the massive protocluster G11.92-0.61)." style="width: 100%;" class="img-fluid rounded z-depth-1">
     <p class="caption">Example ALMA Band 6 continuum image from the Telkamp et al. (2026, in revision) sample, zoomed in on a disk in the G11.92-0.61 protocluster. A 100 au scale bar and a gray ellipse representing the beam are shown.</p>
   </div>
 

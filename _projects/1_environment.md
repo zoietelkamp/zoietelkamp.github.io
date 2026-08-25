@@ -26,9 +26,4 @@ summary: >
   <p>
   Telkamp et al. (2025) was featured in AAS Nova's Selections from 2025, a series highlighting some of the most-downloaded articles published in AAS journals that year.
   </p>
-
-
-#   <p>This publication was <a href="https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/">featured in AAS Nova's Selections from 2025</a>.</p>
 ---
-
-### The `sedcreator` package

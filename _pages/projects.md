@@ -20,7 +20,7 @@ display_categories:
   }
 
   .dissertation-title {
-    font-size: clamp(2.5rem, 3.25vw, 2.25rem);
+    font-size: clamp(1.75rem, 3.25vw, 2.5rem);
     font-weight: 700;
     line-height: 1.3;
     text-align: left;
