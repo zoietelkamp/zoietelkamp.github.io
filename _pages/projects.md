@@ -56,7 +56,10 @@ display_categories:
   }
 
   .project-figure-right .caption {
+    margin-top: 0.4rem;
     margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    line-height: 1.3;
   }
 
   .dissertation-intro {
