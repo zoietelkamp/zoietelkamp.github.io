@@ -1,0 +1,26 @@
+/*******************************************************************************
+ * Small local fixes that need to load after al_folio_core's own partials so
+ * they win the cascade. Keep entries short; anything substantial belongs in
+ * its own shadowed partial instead (see _navbar.scss).
+ ******************************************************************************/
+
+/* al_folio_core's `::highlight(search)` rule pairs a dark theme-accent
+   background with `--global-text-color` (black in light mode), which is
+   low-contrast. Use `--global-hover-text-color` instead — the theme's own
+   variable for text meant to sit on top of the accent color (already white
+   in both light and dark themes). */
+::highlight(search) {
+  color: var(--global-hover-text-color);
+}
+
+/* about.liquid wraps the first name in a bold span; match it to the
+   (unwrapped) last name's weight on the About page heading. */
+.post-title .font-weight-bold {
+  font-weight: inherit;
+}
+
+/* al_folio_core right-aligns bibliography group headings (h2.bibliography);
+   left-align them for the "First-author..." / "Other publications" sections. */
+h2.bibliography {
+  text-align: left;
+}

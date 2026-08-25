@@ -1,189 +1,326 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  name: Zoie Telkamp
+  location: Charlottesville, VA
+  email: zrt7qc@virginia.edu
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    street: Department of Astronomy, PO Box 400325, 530 McCormick Road
+    city: Charlottesville
+    region: VA
+    postalCode: "22904"
     countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University of Virginia
+        location: Charlottesville, VA
+        area: Astronomy
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+        start_date: 2021
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Projected graduation: 2027"
+          - "Advisor: Dr. Adele Plunkett"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Virginia
+        location: Charlottesville, VA
+        area: Astronomy
+        studyType: "Master of Science (GPA 4.0/4.0)"
+        date: 2023
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Dr. Adele Plunkett"
+
+      - institution: University of California, Berkeley
+        location: Berkeley, CA
+        area: Astrophysics
+        studyType: Bachelor of Arts
+        date: 2020
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: University of Virginia, Department of Astronomy
+        position: Graduate Student Researcher
+        location: Charlottesville, VA
+        start_date: 2021
+        summary: "Investigating star formation from low to high masses using observations from ALMA, JWST, Herschel, Spitzer, and SOFIA. Co-developed open-source analysis tools including the sedcreator Python package to enable community science (15+ publications)."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: University of California, Berkeley
+        position: Junior Astronomy Specialist
+        location: Berkeley, CA
+        start_date: 2020
+        end_date: 2021
+        summary: "Led development of an autoencoder neural network to generate synthetic protoplanetary disk images 1000x faster than traditional radiative transfer calculations, enabling efficient disk modeling. Published first-authored paper in The Astrophysical Journal."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: University of California, Berkeley
+        position: Undergraduate Astronomy Researcher
+        location: Berkeley, CA
+        start_date: 2019
+        end_date: 2020
+        summary: "Used methods including principal component analysis to investigate relationships between protoplanetary disk physical properties and morphology. Co-authored two publications and participated in observing runs at Keck and Lick observatories."
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Jefferson Scholars Foundation Dissertation Year Fellowship
+        awarder: Jefferson Scholars Foundation
+        date: 2026
+        summary: "2026–2027. Awarded by the Jefferson Scholars Foundation."
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Emma Williams Prize in Astronomy
+        awarder: University of Virginia Astronomy Department
+        date: 2025
+        summary: "Awarded for outstanding research achievement by a fourth-year graduate student."
+
+      - title: 'American Astronomical Society (AAS) Nova, "Selections from 2025"'
+        awarder: American Astronomical Society
+        date: 2025
+        url: https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/
+        summary: "Telkamp et al. (2025) featured on Nova as one of the most-read journal articles published that year."
+
+      - title: Virginia Space Grant Consortium (VSGC) Graduate STEM Research Fellowship Program
+        awarder: Virginia Space Grant Consortium
+        date: 2023
+        summary: "2023–2025. Awarded by the VSGC to help support a research project supporting NASA’s mission."
+
+      - title: International Astronomical Union Grant
+        awarder: International Astronomical Union
+        date: 2023
+        summary: "Awarded by the IAU to attend Kavli-IAU S383."
+
+      - title: Dorothea Klumpke Roberts Prize
+        awarder: UC Berkeley Astronomy Department
+        date: 2020
+        summary: "Awarded for outstanding scholarly achievement by either an upper-level undergraduate student, or an outstanding graduate student early in his/her research career."
+
+      - title: Undergraduate Research Apprentice Program (URAP) Summer Award
+        awarder: University of California, Berkeley
+        date: 2020
+        summary: "Awarded to select students nominated by their project mentor to support their summer research."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "A Systematic Archival ALMA Survey of Circumstellar Disks Around High-Mass Protostars"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Zoie Telkamp
+          - Adele Plunkett
+          - Jonathan C. Tan
+        publisher: The Astrophysical Journal
+        releaseDate: 2026
+        summary: "Submitted to ApJ."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "The SOFIA Massive (SOMA) Star Formation Survey. V. Clustered Protostars"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Zoie Telkamp
+          - Rubén Fedriani
+          - Jonathan C. Tan
+          - Chi-Yan Law
+          - Yichen Zhang
+          - Adele Plunkett
+          - et al.
+        publisher: The Astrophysical Journal
+        releaseDate: 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025ApJ...986...15T
+        summary: "ApJ, 986, 15."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "A machine learning framework to predict images of edge-on protoplanetary disks"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Zoie Telkamp
+          - Jorge Martínez-Palomera
+          - Gaspard Duchêne
+          - Aishabibi Ashimbekova
+          - Edward Wolfe
+          - Isabel Angelo
+          - Christophe Pinte
+        publisher: The Astrophysical Journal
+        releaseDate: 2022
+        url: https://ui.adsabs.harvard.edu/abs/2022ApJ...939...73T
+        summary: "ApJ, 939, 73."
+
+      - title: "The SOFIA Massive (SOMA) Star Formation Survey. IV. Isolated Protostars"
+        authors:
+          - Rubén Fedriani
+          - Jonathan C. Tan
+          - Zoie Telkamp
+          - et al.
+        publisher: The Astrophysical Journal
+        releaseDate: 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023ApJ...942....7F
+        summary: "ApJ, 942, 53."
+
+      - title: "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). I. Overview of the ALMA Large Program"
+        authors:
+          - Jes Jørgensen
+          - Audrey Coutens
+          - Maria Drozdovskaya
+          - Jeong-Eun Lee
+          - Adele Plunkett
+          - Sébastien Maret
+          - Arnaud Belloche
+          - Daniel Harsono
+          - Zoie Telkamp
+          - et al.
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2026
+        summary: "Submitted to A&A."
+
+      - title: "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). II. Approach to data reduction and products for line-rich broadband (sub-)millimeter spectra"
+        authors:
+          - Adele Plunkett
+          - et al.
+          - Zoie Telkamp
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2026
+        summary: "Submitted to A&A."
+
+      - title: "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). III. CH3OH isotopic fractionation in the low-mass protostar BHR71-IRS1"
+        authors:
+          - Audrey Coutens
+          - et al.
+          - Zoie Telkamp
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2026
+        summary: "Submitted to A&A."
+
+      - title: "The SOMA MM Survey. I. An Astrochemical Census of Massive Protostars"
+        authors:
+          - D. Gigli
+          - P. Gorai
+          - C. Y. Law
+          - J. C. Tan
+          - M. Bonfand
+          - T. Rahman
+          - Y. Zhang
+          - K. Taniguchi
+          - R. Fedriani
+          - Zoie Telkamp
+          - et al.
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2025
+        url: https://ui.adsabs.harvard.edu/abs/2025arXiv251026259G
+        summary: "A&A, in press."
+
+      - title: "The SOMA Atomic Outflow Survey. I. An Atomic O I and Highly Ionized O III Outflow from Massive Protostar G11.94-00.62"
+        authors:
+          - Phillip Oakey
+          - Yao-Lun Yang
+          - Jonathan C. Tan
+          - Thomas Bisbas
+          - Rubén Fedriani
+          - Kei Tanaka
+          - Zoie Telkamp
+          - et al.
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2025
+        url: https://ui.adsabs.harvard.edu/abs/2026ApJ..1003...26O
+        summary: "A&A, in press."
+
+      - title: "Near-infrared observations of outflows and young stellar objects in the massive star-forming region AFGL 5180"
+        authors:
+          - Samuel Crowe
+          - Rubén Fedriani
+          - Jonathan C. Tan
+          - Mark Whittle
+          - Yichen Zhang
+          - Antonio Caratti o Garatti
+          - Juan P. Farias
+          - Anna Gautam
+          - Zoie Telkamp
+          - et al.
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2024
+        url: https://ui.adsabs.harvard.edu/abs/2024A&A...682A...2C
+        summary: "A&A, 682, 27."
+
+      - title: "How Informal Science Education Influences Elementary Students’ Perceptions of Science and Themselves"
+        authors:
+          - Molly Finn
+          - Renato Mazzei
+          - Blake Drechsler
+          - Zoie Telkamp
+          - Mihika Rao
+          - Prakamya Agrawal
+          - Anne McAlister
+        publisher: Journal of STEM Outreach
+        releaseDate: 2023
+        url: https://doi.org/10.15695/jstem/v6i1.10
+        summary: "Journal of STEM Outreach, 6, 1."
+
+      - title: "Demographics of Protoplanetary Disks: A Simulated Population of Edge-on Systems"
+        authors:
+          - Isabel Angelo
+          - Gaspard Duchêne
+          - Karl Stapelfeldt
+          - Zoie Telkamp
+          - et al.
+        publisher: The Astrophysical Journal
+        releaseDate: 2023
+        url: https://ui.adsabs.harvard.edu/abs/2023ApJ...945..130A
+        summary: "ApJ, 945, 130."
+
+      - title: "Observations of edge-on protoplanetary disks with ALMA. I. Results from continuum data"
+        authors:
+          - Marion Villenave
+          - François Ménard
+          - William Dent
+          - Gaspard Duchene
+          - Karl Stapelfeldt
+          - Myriam Benisty
+          - Yann Boehler
+          - Gerrit van der Plas
+          - Christophe Pinte
+          - Zoie Telkamp
+          - et al.
+        publisher: Astronomy & Astrophysics
+        releaseDate: 2020
+        url: https://ui.adsabs.harvard.edu/abs/2020A&A...642A.164V
+        summary: "A&A, 642, 164."
+
+    Talks:
+      - bullet: "**Benchmarking LLM Use in Multiwavelength Astronomy** — NSF-Simons AI Institute for Cosmic Origins Webinar (2026)"
+      - bullet: "**An Archival ALMA Survey of Disks Around Massive Protostars** — Chalmers/Virginia Initiative on Cosmic Origins (CICO/VICO) Spring Workshop (2026)"
+      - bullet: "**A Multi-Scale Comparison of Star Formation from Low to High Masses** — Virginia Tech Physics Symposium (Invited) (2026)"
+      - bullet: "**Investigating Massive Star Formation with the Atacama Large Millimeter/submillimeter Array (ALMA)** — Virginia Space Grant Consortium Student Research Conference (2025)"
+      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: Clustered Regions** — Bob Rood Memorial Symposium (2025)"
+      - bullet: "**Probing Massive Star Formation with the ALMA Archive** — Bob Rood Memorial Symposium (2024)"
+      - bullet: "**Zooming into Massive Star Formation: A Multi-scale Approach** — National Radio Astronomy Observatory (NRAO) TUNA Talk (2023)"
+      - bullet: "**The SOMA Survey - Probing Massive Star Formation Across Galactic Environments** — Our Galactic Ecosystem: Opportunities and Diagnostics in the Infrared and Beyond (2022)"
+      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: New Algorithms and New Environments** — Virginia Initiative on Cosmic Origins (2021)"
+      - bullet: "**Developing a Physics-Aware Neural Network to Generate Edge-On Protoplanetary Disk Images** — 237th Meeting of the American Astronomical Society (2021)"
+
+    Posters:
+      - bullet: "**Benchmarking LLMs Use in Multiwavelength Astronomy** — 2nd Annual NSF-Simons AI Institute for Cosmic Origins Science Conference (2026)"
+      - bullet: "**Probing Massive Star Formation with the ALMA Archive** — ALMA at 10 years: Past, Present, and Future (2023)"
+      - bullet: "**The SOMA Survey - Probing Massive Star Formation Across Galactic Environments** — From Stars to Galaxies II (2022)"
+      - bullet: "**Characterizing the Radial and Vertical Structure of Protoplanetary Disks** — UC Berkeley Astronomy Poster Summer Intern Symposium (2019)"
+
+    Teaching Experience:
+      - label: "Astronomy 4470/5470: Computational Astrophysics (Graduate-level)"
+        details: "Spring 2026, University of Virginia"
+      - label: "Astronomy 1220: Stars, Galaxies, and the Universe"
+        details: "Spring 2026, University of Virginia"
+      - label: "Astronomy 1210: Intro Sky and Solar System"
+        details: "Spring 2024, University of Virginia"
+      - label: "Astronomy 1280: Origins of Almost Everything"
+        details: "Spring 2024, University of Virginia"
+      - label: "Astronomy 5110: Astronomical Techniques (Graduate-level)"
+        details: "Fall 2023, University of Virginia"
+      - label: "Astronomy 1220: Stars, Galaxies, and the Universe"
+        details: "Fall 2023, University of Virginia"
+      - label: "Astronomy 2110: Introduction to Astrophysics"
+        details: "Fall 2022, University of Virginia"
+      - label: "Astronomy 1290: Black Holes"
+        details: "Fall 2022, University of Virginia"
+      - label: "Summer Student Supervisor, Chalmers/Virginia Initiative on Cosmic Origins (CICO/VICO)"
+        details: 'Summer 2022. Co-supervisor to Sam Crowe, "Massive Protostars in the Galactic Center," and Alejandro Romar Tejeiro, "Infrared Light in the Dark (I-LID)—A Census of Star Formation in IRDCs."'
+      - label: "Undergraduate Course Grader, Astronomy 160: Stellar Astrophysics"
+        details: "Fall 2019, University of California, Berkeley"
+
+    Leadership and Outreach:
+      - label: "Sedcreator Python package — Co-lead developer"
+        details: "2021–Present"
+      - label: "Graduate School of Arts and Sciences Council — Representative for the UVA Astronomy Department"
+        details: "2023–2024"
+      - label: "Dark Skies, Bright Kids (DSBK) Assessments — Researcher"
+        details: "2021–2023. Co-author of a publication in the Journal of STEM Outreach investigating the enrichment of science education in under-served school systems."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
+      - name: Technical
+        keywords: "Python, UNIX, HTML, JavaScript, LaTeX, GitHub, Google Colab, SAOImageDS9, MCFOST"
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        keywords: "Deep Neural Networks, Principal Component Analysis (PCA), Random Forest Regression, Multivariate Linear Regression, Polynomial Regression"
