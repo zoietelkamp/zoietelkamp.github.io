@@ -34,7 +34,7 @@ display_categories:
 
   .projects h2.category {
     color: #ABABAB;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: left;
   }
 
