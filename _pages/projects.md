@@ -7,10 +7,10 @@ nav_order: 3
 display_categories:
   - slug: environment
     label: "Core and Environment scale (~10,000 au – 1 pc)"
-  - slug: innermost
-    label: "Innermost (disk) scale (~10–100 au)"
   - slug: intermediate
     label: "Intermediate (outflow) scale (~1,000 au – 0.1 pc)"
+  - slug: innermost
+    label: "Innermost (disk) scale (~10–100 au)"
 ---
 
 <!-- pages/projects.md -->

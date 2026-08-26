@@ -217,39 +217,3 @@
     transform: rotate(0);
   }
 }
-
-#light-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: #fff;
-  cursor: pointer;
-  /* Fix footprint to prevent navbar shifting when icon changes */
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-
-  &:hover {
-    color: var(--global-hover-color);
-  }
-}
-
-@media (min-width: 576px) {
-  #light-toggle {
-    transform: translateY(4px);
-  }
-}
-
-#search-toggle {
-  padding: 0;
-  border: 0;
-  background-color: inherit;
-  color: #fff;
-  cursor: pointer;
-
-  &:hover {
-    color: var(--global-hover-color);
-  }
-}

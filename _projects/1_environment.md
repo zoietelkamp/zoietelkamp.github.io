@@ -21,7 +21,7 @@ summary: >
     <p class="caption">sedcreator</p>
   </div>
 
-  <p>As part of this work, I led the development of version 2.0 of <code>sedcreator</code> (Fedriani et al. 2022, Telkamp et al. 2025), an open-source Python package that automates the photometry and SED building and fitting process for large protostellar samples. Version 2.0 expanded <code>sedcreator</code>'s capabilities to simultaneous the analysis of any number of protostars in clustered regions, where contamination from neighboring sources must be accounted for.</p>
+  <p>As part of this work, I led the development of version 2.0 of <code>sedcreator</code> (Fedriani et al. 2022, Telkamp et al. 2025), an open-source Python package that automates the photometry and SED building and fitting process for large protostellar samples. Version 2.0 expanded <code>sedcreator</code>'s capabilities to simultaneously analyze any number of protostars in clustered regions, where contamination from neighboring sources must be accounted for.</p>
 
   <p>
   Telkamp et al. (2025) was featured in AAS Nova's Selections from 2025, a series highlighting some of the most-downloaded articles published in AAS journals that year.
