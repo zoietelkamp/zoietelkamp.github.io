@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zoietelkamp.github.io/al-folio/sitemap.xml
+Sitemap: https://zoietelkamp.github.io/sitemap.xml
