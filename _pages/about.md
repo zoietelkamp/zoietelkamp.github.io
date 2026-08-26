@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>University of Virginia</a>
+subtitle: <a href='https://astronomy.as.virginia.edu/zoie-telkamp'>University of Virginia</a>
 
 profile:
   align: right
@@ -28,7 +28,7 @@ latest_posts:
 
 I'm an astronomy PhD candidate and Jefferson Fellow at the University of Virginia, where I study star formation using multiwavelength observations from facilities including ALMA, JWST, Herschel, Spitzer, and SOFIA. My research spans a range of physical scales, from the broader star-forming cores and natal environments down to the innermost disk-forming regions around protostars.
 
-Alongside my research, I'm interested in developing software tools and resources for astronomical research. I helped develop <code>sedcreator</code>, a Python package for spectral energy distribution building and fitting, and led its second major release. As part of a seed funding project for the NSF-Simons AI Institute for Cosmic Origins, I'm also developing a benchmarking framework to test whether large language models can be trusted to help astronomers access and use data across different archives and wavelength regimes.
+Alongside my research, I'm interested in developing software tools and resources for astronomical research. I helped develop <a href='https://sedcreator.readthedocs.io/en/latest/'><code>sedcreator</code></a>, a Python package for spectral energy distribution building and fitting, and led its second major release. As part of a seed funding project for the NSF-Simons AI Institute for Cosmic Origins, I'm also developing a benchmarking framework to test whether large language models can be trusted to help astronomers access and use data across different archives and wavelength regimes.
 
 Before graduate school, I earned my B.A. in Astrophysics from UC Berkeley, where I studied protoplanetary disks using machine learning methods.
 

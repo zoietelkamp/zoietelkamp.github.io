@@ -47,7 +47,7 @@ display_categories:
   .project-figure-right {
     float: right;
     max-width: 55%;
-    margin: 0.25rem 0 1rem 1.5rem;
+    margin: 1rem 0 1rem 1.5rem;
   }
 
   .project-figure-right img {
@@ -64,7 +64,7 @@ display_categories:
 
   .project-figure-center {
     text-align: center;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
   }
 
   .project-figure-center img {

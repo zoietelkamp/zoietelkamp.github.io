@@ -1,0 +1,24 @@
+{% comment %}
+  Local Teaching Experience renderer.
+  Groups entries into labeled sub-sections by their `group` field (e.g. "Graduate
+  Student Teaching Assistant", "Summer Student Supervisor"). Uses the same
+  list-group/indent/spacing conventions as education.liquid and
+  publications.liquid so the section reads consistently with the rest of the CV.
+{% endcomment %}
+
+{% assign previous_group = null %}
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% if entry.group != previous_group %}
+      <li class="list-group-item border-0 pb-0">
+        <h6 class="title font-weight-bold ml-1 ml-md-4 mt-2">{{ entry.group }}</h6>
+      </li>
+      {% assign previous_group = entry.group %}
+    {% endif %}
+    {% if entry.label %}
+      <li class="list-group-item">
+        <p class="ml-1 ml-md-4 mb-0"><strong>{{ entry.label }}:</strong> {{ entry.details }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

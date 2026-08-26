@@ -1,0 +1,33 @@
+{% comment %}
+  Local override of al_folio_cv's cv/publications.liquid.
+  Renders publications as single-paragraph reference-style citations (matching
+  the wording/format used in the CV PDF), grouped into sub-sections by the
+  entry's `category` field (e.g. "First Author", "Contributing Author"). The DOI,
+  not the title, is the hyperlink.
+{% endcomment %}
+
+{% assign previous_category = null %}
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% if entry.category != previous_category %}
+      <li class="list-group-item border-0 pb-0">
+        <h6 class="title font-weight-bold ml-1 ml-md-4 mt-2">
+          <em>{{ entry.category }}</em>
+        </h6>
+      </li>
+      {% assign previous_category = entry.category %}
+    {% endif %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <p class="ml-1 ml-md-4 mb-0">
+            {{ entry.citation }}
+            {% if entry.doi %}
+              <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

@@ -18,10 +18,9 @@ summary: >
 
   <div class="project-figure-right" style="width: 160px; text-align: center;">
     <img src="/al-folio/assets/img/sedcreator_logo.png" alt="A logo showing the word 'sedcreator' at the top of the circle, with a multicolored SED inside the circle" style="width: 100%;" class="img-fluid rounded z-depth-1">
-    <p class="caption">sedcreator</p>
   </div>
 
-  <p>As part of this work, I led the development of version 2.0 of <code>sedcreator</code> (Fedriani et al. 2022, Telkamp et al. 2025), an open-source Python package that automates the photometry and SED building and fitting process for large protostellar samples. Version 2.0 expanded <code>sedcreator</code>'s capabilities to simultaneously analyze any number of protostars in clustered regions, where contamination from neighboring sources must be accounted for.</p>
+  <p>As part of this work, I led the development of version 2.0 of <a href='https://sedcreator.readthedocs.io/en/latest/'><code>sedcreator</code></a> (Fedriani et al. 2022, Telkamp et al. 2025), an open-source Python package that automates the photometry and SED building and fitting process for large protostellar samples. Version 2.0 expanded <code>sedcreator</code>'s capabilities to simultaneously analyze any number of protostars in clustered regions, where contamination from neighboring sources must be accounted for.</p>
 
   <p>
   Telkamp et al. (2025) was featured in AAS Nova's Selections from 2025, a series highlighting some of the most-downloaded articles published in AAS journals that year.

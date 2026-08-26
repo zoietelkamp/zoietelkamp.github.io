@@ -1,0 +1,22 @@
+{% comment %}
+  Local override of al_folio_cv's cv/education.liquid.
+  No date badge column: entries group by institution, printing the institution
+  once as a heading with each entry's pre-formatted `line` beneath it.
+{% endcomment %}
+
+{% assign previous_institution = null %}
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    {% if entry.institution != previous_institution %}
+      <li class="list-group-item border-0 pb-0">
+        <h6 class="title font-weight-bold ml-1 ml-md-4 mt-2">{{ entry.institution }}</h6>
+      </li>
+      {% assign previous_institution = entry.institution %}
+    {% endif %}
+    {% if entry.line %}
+      <li class="list-group-item">
+        <p class="ml-1 ml-md-4 mb-0">{{ entry.line }}</p>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

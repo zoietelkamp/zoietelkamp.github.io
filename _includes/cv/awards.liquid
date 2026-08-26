@@ -1,0 +1,29 @@
+{% comment %}
+  Local override of al_folio_cv's cv/awards.liquid.
+  No date badge column: the year renders inline after the award title
+  ("Name, year"), and the description/summary line is omitted entirely.
+{% endcomment %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for entry in entries %}
+    <li class="list-group-item">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        {% if entry.url %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+            {%- if entry.date %}, {{ entry.date }}{% endif %}
+          </h6>
+        {% elsif entry.title %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            {{ entry.title -}}
+            {%- if entry.date %}, {{ entry.date }}{% endif %}
+          </h6>
+        {% endif %}
+
+        {% if entry.awarder %}
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
