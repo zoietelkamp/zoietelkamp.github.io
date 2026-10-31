@@ -21,7 +21,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <p class="ml-1 ml-md-4 mb-0">
-            {{ entry.citation }}
+            {{ entry.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}
             {% if entry.doi %}
               <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener">DOI</a>
             {% endif %}

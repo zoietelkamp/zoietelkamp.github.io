@@ -12,177 +12,176 @@ cv:
 
   sections:
     Education:
-      - institution: University of Virginia
-        line: "Anticipated PhD Defense Date: April 2027"
+      - degrees:
+          - PhD in Astronomy (Expected 2027)
+          - Master of Science in Astronomy (2023)
+        institution: University of Virginia
+        advisor: "Advisor: Adele Plunkett"
+        details: "Dissertation: “A Multi-Scale Investigation of Star Formation Across the Mass Spectrum”"
 
-      - institution: University of Virginia
-        line: "M.S. in Astronomy, May 2023"
+      - degrees:
+          - Bachelor of Arts in Astrophysics (2020)
+        institution: University of California, Berkeley
+        advisor: "Advisor: Gaspard Duchêne"
 
-      - institution: University of California, Berkeley
-        line: "B.A. in Astrophysics, May 2020"
-
+    # Dates live in `company` rather than start_date/end_date so the entries keep
+    # the CV's order instead of being re-sorted by date.
     Research Experience:
-      - company: University of Virginia, Department of Astronomy
-        position: Graduate Student Researcher
-        location: Charlottesville, VA
-        start_date: 2021
-        summary: "Investigating star formation from low to high masses using observations from ALMA, JWST, Herschel, Spitzer, and SOFIA. Co-developed open-source analysis tools including the sedcreator Python package to enable community science (15+ publications)."
+      - position: Investigating Protostellar Outflows with JWST NIRCam
+        company: "Graduate Dissertation Research, University of Virginia (2025–Present)"
+        summary: Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS) Team
+        highlights:
+          - "Reduced JWST NIRCam images and characterized >30 protostellar outflows in eight star-forming regions; now comparing outflow orientations with magnetic field directions from archival dust polarization data."
+          - "Building an interactive tool for viewing ALMA and JWST spectra for the COMPASS website."
 
-      - company: University of California, Berkeley
-        position: Junior Astronomy Specialist
-        location: Berkeley, CA
-        start_date: 2020
-        end_date: 2021
-        summary: "Led development of an autoencoder neural network to generate synthetic protoplanetary disk images 1000x faster than traditional radiative transfer calculations, enabling efficient disk modeling. Published first-authored paper in The Astrophysical Journal."
+      - position: An Archival ALMA Analysis of Disks in Massive Star-Forming Regions
+        company: "Graduate Dissertation Research, University of Virginia (2023–2026)"
+        summary: "Advisors/Mentors: A. Plunkett, J. C. Tan"
+        highlights:
+          - "Identified and characterized >100 candidate protostellar disks using high-resolution archival ALMA continuum images of 17 massive star-forming regions."
+          - "Compared disk orientations to literature outflow orientations and performed complementary IR spectral energy distribution (SED) fitting to test massive star formation model predictions (Telkamp et al. 2026, submitted)."
 
-      - company: University of California, Berkeley
-        position: Undergraduate Astronomy Researcher
-        location: Berkeley, CA
-        start_date: 2019
-        end_date: 2020
-        summary: "Used methods including principal component analysis to investigate relationships between protoplanetary disk physical properties and morphology. Co-authored two publications and participated in observing runs at Keck and Lick observatories."
+      - position: The SOFIA Massive (SOMA) Star Formation Survey
+        company: "Graduate Dissertation Research, University of Virginia (2021–2025)"
+        summary: "Advisors/Mentors: R. Fedriani, J. C. Tan"
+        highlights:
+          - "Characterized 34 protostars in crowded Galactic star-forming regions via SOFIA, Spitzer, and Herschel photometry and SED fitting, nearly doubling the size of the survey."
+          - "Added empirical constraints and ran restricted SED fits of SOMA Paper I–V protostars to test the environmental dependence of massive star formation (Telkamp et al. 2025)."
+          - "Led development of version 2.0 of the open-source Python package `sedcreator` (Fedriani et al. 2023, Telkamp et al. 2025; used in 15+ publications), adding tools for photometry and SED fitting in crowded star-forming regions."
 
-    Awards:
-      - title: Dissertation Year Fellowship
-        awarder: Jefferson Scholars Foundation
+      - position: Benchmarking Large Language Models for Astronomical Data Access
+        company: "Additional Graduate Research, NSF-Simons AI Institute for Cosmic Origins (CosmicAI) (Summer 2026)"
+        summary: "Advisors/Mentors: A. Plunkett, B. Mason, S. Offner, S. Juneau, R. Nikutta, R. Loomis"
+        highlights:
+          - "Built `AstroDataBench`, an open-source benchmarking framework for evaluating LLM reliability in facilitating archival astronomy data access, in collaboration with NRAO and NOIRLab astronomers (currently being expanded by a CosmicAI intern)."
+
+      - position: Machine Learning Analysis of Edge-On Protoplanetary Disks
+        company: "Undergraduate and Post-Baccalaureate Research, University of California, Berkeley (2018–2021)"
+        summary: "Advisor: G. Duchêne"
+        highlights:
+          - "Led a project developing a machine learning framework (autoencoder and random forest regression) to generate synthetic edge-on protoplanetary disk images 1000× faster than radiative transfer calculations, to facilitate efficient disk modeling (Telkamp et al. 2022)."
+          - "Developed morphological analysis methods for HST protoplanetary disk images (Villenave et al. 2020) and participated in observing runs at Keck and Lick observatories."
+
+    Awards and Recognition:
+      - title: "**Jefferson Scholars Foundation Dissertation Year Fellowship**"
         date: "2026–2027"
 
-      - title: Emma Williams Prize in Astronomy
-        awarder: University of Virginia Astronomy Department
+      - title: "**Emma Williams Prize in Astronomy** (University of Virginia)"
         date: 2025
 
-      - title: 'American Astronomical Society (AAS) Nova, "Selections from 2025"'
-        awarder: American Astronomical Society
+      - title: "**American Astronomical Society (AAS) Nova**, [“Selections from 2025”](https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/) Feature"
         date: 2025
-        url: https://aasnova.org/2025/12/22/selections-from-2025-the-formation-of-massive-stars/
+        summary: "Telkamp et al. 2025 featured as one of the most-downloaded AAS journal articles published in 2025"
 
-      - title: Graduate STEM Research Fellowship
-        awarder: Virginia Space Grant Consortium
+      - title: "**Virginia Space Grant Consortium (VSGC) Graduate STEM Research Fellowship**"
         date: "2023–2025"
 
-      - title: International Astronomical Union Grant
-        awarder: International Astronomical Union
+      - title: "**International Astronomical Union Grant** (for Kavli-IAU S383)"
         date: 2023
 
-      - title: Dorothea Klumpke Roberts Prize in Astronomy
-        awarder: UC Berkeley Astronomy Department
+      - title: "**Dorothea Klumpke Roberts Prize in Astronomy** (UC Berkeley)"
         date: 2020
 
-      - title: Undergraduate Research Apprentice Program (URAP) Summer Award
-        awarder: University of California, Berkeley
+      - title: "**Undergraduate Research Apprentice Program Summer Award** (UC Berkeley)"
         date: 2020
+
+    Teaching and Mentorship Experience:
+      - position: Graduate Student Teaching Assistant
+        company: "University of Virginia (2022–2026)"
+        highlights:
+          - "**Graduate:** Computational Astrophysics; Astronomical Techniques"
+          - "**Undergraduate:** Introduction to Astrophysics; Stars, Galaxies, and the Universe; Introduction to the Sky and Solar System; Origins of Almost Everything; Black Holes"
+
+      - position: Summer Student Co-Supervisor
+        company: "Chalmers/Virginia Initiative on Cosmic Origins (CICO/VICO) (Summer 2022)"
+        summary: "With R. Fedriani and J. C. Tan"
+        highlights:
+          - "Samuel Crowe (University of Virginia): “Massive Protostars in the Galactic Center,” presented at the 241st AAS Meeting (talk) and the CICO Summer 2022 Workshop."
+          - "Alejandro Romar Tejeiro (Universidad Nacional de Educación a Distancia): “Infrared Light in the Dark—Hunting for Protostars in IRDCs,” presented at the CICO Summer 2022 Workshop."
 
     Publications:
-      # First Author
       - category: First Author
-        citation: 'Telkamp, Z., Plunkett, A., Tan, J.C., 2026, "An Archival ALMA Survey of Disks around Massive Protostars," submitted to ApJ; revisions in progress'
+        citation: "**Telkamp, Z.**, Plunkett, A., Tan, J. C., 2026, “An Archival ALMA Survey of Disks in Massive Star-Forming Regions,” submitted to ApJ; revisions in progress"
 
       - category: First Author
-        citation: 'Telkamp, Z., Fedriani, R., Tan, J. C., Law, C., Yang, Y., Plunkett, A., et al., 2025, "The SOFIA Massive (SOMA) Star Formation Survey. V. Clustered Protostars," ApJ, 986, 15'
+        citation: "**Telkamp, Z.**, Fedriani, R., Tan, J. C., Law, C. Y., Zhang, Y., Plunkett, A. (+13 co-authors), 2025, “The SOFIA Massive (SOMA) Star Formation Survey. V. Clustered Protostars,” ApJ, 986, 15"
         doi: 10.3847/1538-4357/adcd79
 
       - category: First Author
-        citation: 'Telkamp, Z., Martínez-Palomera, J., Duchêne, G., Ashimbekova, A., Wolfe, E., Angelo, I., Pinte, C., 2022, "A machine learning framework to predict images of edge-on protoplanetary disks," ApJ, 939, 73'
+        citation: "**Telkamp, Z.**, Martínez-Palomera, J., Duchêne, G. (+4 co-authors), 2022, “A machine learning framework to predict images of edge-on protoplanetary disks,” ApJ, 939, 73"
         doi: 10.3847/1538-4357/ac96f1
 
-      # Contributing Author
       - category: Contributing Author
-        citation: 'Fedriani, R., Tan, J. C., Telkamp, Z. (+13 co-authors), 2023, "The SOFIA Massive (SOMA) Star Formation Survey. IV. Isolated Protostars," ApJ, 942, 7'
-        doi: 10.3847/1538-4357/aca4cf
+        citation: "Plunkett, A., et al. (incl. **Telkamp, Z.**; 28 authors), 2026, “Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). II. Approach to data reduction and products for line-rich broadband (sub-)millimeter spectra,” A&A, in press"
 
       - category: Contributing Author
-        citation: 'Jørgensen, J., Coutens, A., Drozdovskaya, M., Lee, J.-E., Plunkett, A., Maret, S., Belloche, A., Harsono, D., Telkamp, Z. (+20 coauthors), 2026, "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). I. Overview of the ALMA Large Program," submitted to A&A'
+        citation: "Coutens, A., et al. (incl. **Telkamp, Z.**; 28 authors), 2026, “Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). III. CH<sub>3</sub>OH isotopic fractionation in the low-mass protostar BHR71-IRS1,” A&A, in press"
 
       - category: Contributing Author
-        citation: 'Plunkett, A. (+26 coauthors and Telkamp, Z.), 2026, "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). II. Approach to data reduction and products for line-rich broadband (sub-)millimeter spectra," submitted to A&A'
-
-      - category: Contributing Author
-        citation: 'Coutens, A. (+26 coauthors and Telkamp, Z.), 2026, "Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). III. CH3OH isotopic fractionation in the low-mass protostar BHR71-IRS1," submitted to A&A'
-
-      - category: Contributing Author
-        citation: 'Gigli, D., Gorai, P., Law, C. Y., Tan, J. C., Bonfand, M., Rahman, T., Zhang, Y., Taniguchi, K., Fedriani, R., Telkamp, Z. (+2 co-authors), 2025, "The SOMA MM Survey. I. An Astrochemical Census of Massive Protostars," A&A, in press'
+        citation: "Gigli, D., Gorai, P., Law, C. Y., Tan, J. C., Bonfand, M., Rahman, T., Zhang, Y., Taniguchi, K., Fedriani, R., **Telkamp, Z.** (+2 co-authors), 2026, “The SOMA MM Survey. I. An Astrochemical Census of Massive Protostars,” A&A, in press"
         doi: 10.48550/arXiv.2510.26259
 
       - category: Contributing Author
-        citation: 'Oakey, P., Yang, Y. L., Tan, J. C., Bisbas, T., Fedriani, R., Tanaka, K., Telkamp, Z. (+3 coauthors), 2025, "The SOMA Atomic Outflow Survey. I. An Atomic OI and Highly Ionized OIII Outflow from Massive Protostar G11.94-00.62," ApJ, in press'
+        citation: "Jørgensen, J., Coutens, A., Drozdovskaya, M., Lee, J.-E., Plunkett, A., Maret, S., Belloche, A., Harsono, D., **Telkamp, Z.** (+20 co-authors), 2026, “Complex Organic Molecules in Protostars with ALMA Spectral Surveys (COMPASS). I. Overview of the ALMA Large Program,” A&A, 714, A49"
+
+      - category: Contributing Author
+        citation: "Oakey, P., Yang, Y. L., Tan, J. C., Bisbas, T., Fedriani, R., Tanaka, K., **Telkamp, Z.** (+3 co-authors), 2026, “The SOMA Atomic Outflow Survey. I. An Atomic OI and Highly Ionized OIII Outflow from Massive Protostar G11.94-00.62,” ApJ, 1003, 26"
         doi: 10.3847/1538-4357/ae5485
 
       - category: Contributing Author
-        citation: 'Crowe, S., Fedriani, R., Tan, J. C., Whittle, M., Zhang, Y., Caratti o Garatti, A., Farias, J. P., Gautam, A., Telkamp, Z. (+24 co-authors), 2024, "Near-infrared observations of outflows and young stellar objects in the massive star-forming region AFGL 5180," A&A, 682, A2'
+        citation: "Crowe, S., Fedriani, R., Tan, J. C., Whittle, M., Zhang, Y., Caratti o Garatti, A., Farias, J. P., Gautam, A., **Telkamp, Z.** (+24 co-authors), 2024, “Near-infrared observations of outflows and young stellar objects in the massive star-forming region AFGL 5180,” A&A, 682, A27"
         doi: 10.1051/0004-6361/202348094
 
       - category: Contributing Author
-        citation: 'Finn, M., Mazzei, R., Drechsler, B., Telkamp, Z., Rao, M., Agrawal, P., McAlister, A., 2023, "How Informal Science Education Influences Elementary Students’ Perceptions of Science and Themselves," Journal of STEM Outreach, 6, 1'
-        doi: 10.15695/jstem/v6i1.10
-
-      - category: Contributing Author
-        citation: 'Angelo, I., Duchêne, G., Stapelfeldt, K., Telkamp, Z. (+8 coauthors), 2023, "Demographics of Protoplanetary Disks: A Simulated Population of Edge-on Systems," ApJ, 945, 130'
+        citation: "Angelo, I., Duchêne, G., Stapelfeldt, K., **Telkamp, Z.** (+8 co-authors), 2023, “Demographics of Protoplanetary Disks: A Simulated Population of Edge-on Systems,” ApJ, 945, 130"
         doi: 10.3847/1538-4357/acbb01
 
       - category: Contributing Author
-        citation: 'Villenave, M., Ménard, F., Dent, W., Duchene, G., Stapelfeldt, K., Benisty, M., Boehler, Y., van der Plas, G., Pinte, C., Telkamp, Z. (+8 co-authors), 2020, "Observations of edge-on protoplanetary disks with ALMA. I. Results from continuum data," A&A, 642, A164'
+        citation: "Fedriani, R., Tan, J. C., **Telkamp, Z.** (+13 co-authors), 2023, “The SOFIA Massive (SOMA) Star Formation Survey. IV. Isolated Protostars,” ApJ, 942, 7"
+        doi: 10.3847/1538-4357/aca4cf
+
+      - category: Contributing Author
+        citation: "Finn, M., Mazzei, R., Drechsler, B., **Telkamp, Z.** (+2 co-authors), 2023, “How Informal Science Education Influences Elementary Students’ Perceptions of Science and Themselves,” J. STEM Outreach, 6, 1"
+        doi: 10.15695/jstem/v6i1.10
+
+      - category: Contributing Author
+        citation: "Villenave, M., Ménard, F., Dent, W., Duchêne, G., Stapelfeldt, K., Benisty, M., Boehler, Y., Plas, G., Pinte, C., **Telkamp, Z.** (+8 co-authors), 2020, “Observations of edge-on protoplanetary disks with ALMA. I. Results from continuum data,” A&A, 642, A164"
         doi: 10.1051/0004-6361/202038087
 
     Talks:
+      - bullet: "**How Do Massive Stars Form? A Multi-Scale View of Protostars and Their Environments**<br>Infrared Processing and Analysis Center (IPAC) Lunch Seminar (2026)"
+      - bullet: "**A Multi-Scale Comparison of Star Formation from Low to High Masses**<br>Virginia Tech Astronomy Seminar (Invited) (2026)"
+      - bullet: "**How Do Massive Stars Form? A Multi-Scale View of Protostars and Their Environments**<br>Jefferson Scholars Foundation Fellows Symposium (2026)"
       - bullet: "**Benchmarking LLM Use in Multiwavelength Astronomy**<br>NSF-Simons AI Institute for Cosmic Origins Webinar (2026)"
-      - bullet: "**An Archival ALMA Survey of Disks Around Massive Protostars**<br>Chalmers/Virginia Initiative on Cosmic Origins (CICO/VICO) Spring Workshop, University of Virginia (2026)"
-      - bullet: "**A Multi-Scale Comparison of Star Formation from Low to High Masses**<br>Astronomy Seminar, Virginia Tech (Invited) (2026)"
-      - bullet: "**Investigating Massive Star Formation with the Atacama Large Millimeter/submillimeter Array (ALMA)**<br>Virginia Space Grant Consortium Graduate Research Conference, Hampton University (2025)"
-      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: Clustered Regions**<br>Bob Rood Symposium, University of Virginia (2025)"
-      - bullet: "**Probing Massive Star Formation with the ALMA Archive**<br>Bob Rood Symposium, University of Virginia (2024)"
-      - bullet: '**Zooming into Massive Star Formation: A Multi-scale Approach**<br>"TUNA" Lunch Talks, National Radio Astronomy Observatory (NRAO) (2023)'
-      - bullet: "**The SOMA Survey - Probing Massive Star Formation Across Galactic Environments**<br>Our Galactic Ecosystem: Opportunities and Diagnostics in the Infrared and Beyond, University of California, Los Angeles, Lake Arrowhead Lodge (2022)"
-      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: New Algorithms and New Environments**<br>Virginia Initiative on Cosmic Origins (2021)"
-      - bullet: "**Developing a Physics-Aware Neural Network to Generate Edge-On Protoplanetary Disk Images**<br>237th Meeting of the American Astronomical Society (2021)"
+      - bullet: "**An Archival ALMA Survey of Disks Around Massive Protostars**<br>Chalmers/Virginia Initiative on Cosmic Origins Spring Workshop (2026)"
+      - bullet: "**Investigating Massive Star Formation with ALMA**<br>Virginia Space Grant Consortium Graduate Research Conference (2025)"
+      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: Clustered Regions**<br>Bob Rood Memorial Symposium (2025)"
+      - bullet: "**Probing Massive Star Formation with the ALMA Archive**<br>Bob Rood Memorial Symposium (2024)"
+      - bullet: "**Zooming into Massive Star Formation: A Multi-Scale Approach**<br>National Radio Astronomy Observatory “TUNA” Talk (Invited) (2023)"
+      - bullet: "**The SOMA Survey: Probing Massive Star Formation Across Galactic Environments**<br>Our Galactic Ecosystem: Opportunities & Diagnostics in the IR and Beyond (2022)"
+      - bullet: "**The SOFIA Massive (SOMA) Star Formation Survey: New Algorithms and New Environments**<br>Chalmers/Virginia Initiative on Cosmic Origins Spring Workshop (2021)"
+      - bullet: "**A Physics-Aware Neural Network to Generate Edge-On Protoplanetary Disk Images**<br>237th Meeting of the American Astronomical Society (2021)"
 
     Posters:
-      - bullet: "**Benchmarking LLM Use in Multiwavelength Astronomy**<br>2nd Annual NSF-Simons AI Institute for Cosmic Origins Science Conference, Charlottesville, Virginia (2026)"
+      - bullet: "**An Archival ALMA Survey of Candidate Disks in Massive Star-Forming Regions**<br>DISks in COntext (DISCO), National Radio Astronomy Observatory (2026)"
+      - bullet: "**Benchmarking LLM Use in Multiwavelength Astronomy**<br>2nd Annual CosmicAI Science Conference (2026)"
       - bullet: "**Probing Massive Star Formation with the ALMA Archive**<br>ALMA at 10 years: Past, Present, and Future (2023)"
-      - bullet: "**The SOMA Survey - Probing Massive Star Formation Across Galactic Environments**<br>From Stars to Galaxies II (2022)"
-      - bullet: "**Characterizing the Radial and Vertical Structure of Protoplanetary Disks**<br>Summer Intern Poster Symposium, University of California, Berkeley (2019)"
+      - bullet: "**The SOMA Survey: Probing Massive Star Formation Across Galactic Environments**<br>From Stars to Galaxies II, Chalmers University of Technology (2022)"
 
-    Teaching Experience:
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 4470/5470: Computational Astrophysics (Graduate-level)"
-        details: "Spring 2026, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 1220: Stars, Galaxies, and the Universe"
-        details: "Spring 2026, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 1210: Intro Sky and Solar System"
-        details: "Spring 2024, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 1280: Origins of Almost Everything"
-        details: "Spring 2024, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 5110: Astronomical Techniques (Graduate-level)"
-        details: "Fall 2023, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 1220: Stars, Galaxies, and the Universe"
-        details: "Fall 2023, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 2110: Introduction to Astrophysics"
-        details: "Fall 2022, University of Virginia"
-      - group: "Graduate Student Teaching Assistant"
-        label: "Astronomy 1290: Black Holes"
-        details: "Fall 2022, University of Virginia"
-      - group: "Summer Student Supervisor"
-        label: "Chalmers/Virginia Initiative on Cosmic Origins (CICO/VICO)"
-        details: 'Summer 2022. Co-supervisor to Sam Crowe, "Massive Protostars in the Galactic Center," and Alejandro Romar Tejeiro, "Infrared Light in the Dark (I-LID)—A Census of Star Formation in IRDCs."'
-      - group: "Undergraduate Course Grader"
-        label: "Astronomy 160: Stellar Astrophysics"
-        details: "Fall 2019, University of California, Berkeley"
+    Open-Source Python Packages:
+      - bullet: "**`sedcreator`** *(Co-Lead Developer; with R. Fedriani)* · [Documentation](https://sedcreator.readthedocs.io/en/latest/) &#124; [GitHub](https://github.com/fedriani/sedcreator)<br>Photometry and SED fitting for protostars in isolated or crowded environments"
+      - bullet: "**`AstroDataBench`** *(Lead Developer)* · [Article](https://cosmicai.org/news/stable) &#124; [GitHub](https://github.com/NSF-Simons-CosmicAI-Institute/AstroDataBench)<br>Benchmark for evaluating LLMs on multiwavelength data discovery and domain questions"
 
     Leadership and Outreach:
-      - label: "Sedcreator Python package — Co-lead developer"
-        details: "2021–Present"
-      - label: "Graduate School of Arts and Sciences Council — Representative for the UVA Astronomy Department"
-        details: "2023–2024"
-      - label: "Dark Skies, Bright Kids (DSBK) Assessments — Researcher"
-        details: "2021–2023. Co-author of a publication in the Journal of STEM Outreach investigating the enrichment of science education in under-served school systems."
+      - bullet: "**Graduate School of Arts and Sciences Council**<br>Representative for the UVA Astronomy Department (2023–2024)"
+      - bullet: "**Dark Skies, Bright Kids (DSBK) Assessments**<br>Researcher and co-author of a publication in the Journal of STEM Outreach investigating the enrichment of science education in under-served school systems (Finn et al. 2023) (2021–2023)"
 
-    Skills:
-      - name: Technical
-        keywords: "Python, Docker, UNIX, HTML, JavaScript, LaTeX, GitHub, Google Colab, SAOImageDS9, MCFOST"
-      - name: Machine Learning
-        keywords: "Large Language Models (LLMs), Deep Neural Networks, Principal Component Analysis (PCA), Random Forest Regression, Multivariate Linear Regression, Polynomial Regression"
+    Additional Skills:
+      - label: Programming
+        details: "Python, ADQL, UNIX, JavaScript, HTML"
+      - label: Archives/Observatories
+        details: "MAST (JWST, HST), IRSA (Spitzer, Herschel, SOFIA), ALMA, JCMT"
+      - label: Software and Packages
+        details: "JWST Science Calibration Pipeline, STPSF/WebbPSF, Astroquery, Astropy, Astrodendro, Photutils, Scikit-learn, CASA, Docker, Harbor, Pytest, LaTeX, Git, DS9"
+      - label: AI/Machine Learning
+        details: "Large Language Models (LLMs), Deep Neural Networks, Principal Component Analysis (PCA), Random Forest Regression"
