@@ -6,11 +6,11 @@ subtitle: <a href='https://astronomy.as.virginia.edu/zoie-telkamp'>University of
 
 profile:
   align: right
-  image: me.jpg
-  image_circular: false # crops the image to make it circular
+  image: pic.jpg
+  image_circular: False # crops the image to make it circular
   more_info: >
     <p><img src="assets/img/mail.svg" alt="Email" style="height: 1em; width: auto; vertical-align: -0.1em; margin-right: 0.4em;"><a href="mailto:zrt7qc@virginia.edu">zrt7qc@virginia.edu</a></p>
-    <p><img src="assets/img/ads_logo.svg" alt="ADS" style="height: 1em; width: auto; vertical-align: -0.1em; margin-right: 0.4em;"><a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&p_=0&q=%20author%3A%22Zoie%20Telkamp%22&sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">ADS</a></p>
+    <p><img src="assets/img/ads_logo.svg" alt="ADS" style="height: 1em; width: auto; vertical-align: -0.1em; margin-right: 0.4em;"><a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&p_=0&q=%20author%3A%22Zoie%20Telkamp%22&sort=date%20desc%2C%20bibcode%20desc" target="_blank" rel="noopener">ADS</a><i class="fa-brands fa-github" aria-hidden="true" style="margin-left: 1.2em; margin-right: 0.4em;"></i><a href="https://github.com/zoietelkamp" target="_blank" rel="noopener">GitHub</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -25,6 +25,24 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+<style>
+  @media (min-width: 576px) {
+    .profile {
+      width: 22%;
+    }
+  }
+
+  .profile .more-info p {
+    white-space: nowrap;
+  }
+
+  .profile figure img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+</style>
 
 I'm an astronomy PhD candidate and Jefferson Fellow at the University of Virginia, where I study star formation using multiwavelength observations from facilities including ALMA, JWST, Herschel, Spitzer, and SOFIA. My research spans a range of physical scales, from the broader star-forming cores and natal environments down to the innermost disk-forming regions around protostars.
 
